@@ -4,7 +4,7 @@ import langchain
 docs = langchain.Docs()
 
 # Add the PDF file to the Docs object
-docs.add("path/to/pdf_file.pdf")
+docs.add("requirements.pdf")
 
 # Create an LLM model object
 llm_model = langchain.ChatOpenAI(model="gpt-3")
